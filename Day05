@@ -1,0 +1,14 @@
+Question : Write a program to display all numbers of multiples of 3 within the range 10 to 50.
+ is : 
+ 
+print("Multiple of 3 in range 10 to 50 is : ")
+i = 10
+num = 50
+for i in range (i,num+1):
+    if (i%3)==0:
+        print(i," ",end="")
+        i+=1
+
+Output
+Multiple of 3 in range 10 to 50 is : 
+12  15  18  21  24  27  30  33  36  39  42  45  48 
