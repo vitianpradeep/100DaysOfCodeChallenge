@@ -1,0 +1,34 @@
+10. Write a program to find the roots of a quadratic equation
+print("Format of a Quadratic equation is : ax²+bx+c=0")
+print("Where a, b, c are constants.\n")
+​
+a = int(input("Enter value of a : "))
+b = int(input("Enter value of a : "))
+c = int(input("Enter value of a : "))
+​
+print("Discriminant D is : b²-4ac")
+D = (b*b-4*a*c)
+print("Discriminant D is ; ",D)
+      
+if D>0:
+    print("Roots of quadratic equation is : ")
+    x1 = (-b-((b*b-4*a*c)**(1/2)))/(2*a)
+    x2 = (-b+((b*b-4*a*c)**(1/2)))/(2*a)
+    print(x1 ,"and ",x2)
+    
+elif D==0:
+    print("Root of quadratic equation is : ")
+    print((-b/(2*a)))
+          
+else:
+    print("Roots are Imaginary!")
+Format of a Quadratic equation is : ax²+bx+c=0
+Where a, b, c are constants.
+
+Enter value of a : 10
+Enter value of a : 20
+Enter value of a : 1
+Discriminant D is : b²-4ac
+Discriminant D is ;  360
+Roots of quadratic equation is : 
+-1.9486832980505138 and  -0.05131670194948619
